@@ -15,7 +15,7 @@ function Login() {
     })
   }
 
-  const API_URL = import.meta.env.VITE_API_URL || ''
+  const API_URL = 'https://auth-backend-1-tue0.onrender.com'
 
   const handleSubmit = async (e) => {
     e.preventDefault()
